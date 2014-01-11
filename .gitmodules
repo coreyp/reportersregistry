@@ -4,3 +4,12 @@
 [submodule "content/themes/alienship"]
 	path = content/themes/alienship
 	url = https://github.com/coreyp/alienship.git
+[submodule "content/plugins/stripe-donations"]
+	path = content/plugins/stripe-donations
+	url = https://github.com/coreyp/stripe-donations.git
+[submodule "content/plugins/alienship-shortcodes"]
+	path = content/plugins/alienship-shortcodes
+	url = https://github.com/mindctrl/alienship-shortcodes.git
+[submodule "content/plugins/remove-dashboard-access"]
+	path = content/plugins/remove-dashboard-access
+	url = https://github.com/coreyp/remove-dashboard-access.git
