@@ -14,7 +14,7 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 			<?php
 			// do_action( 'alienship_archive_page_title' );
-			echo "<h1>The Reporters' Registry</h1><a class='btn btn-info btn-xs' href='/registry-request/'>Make a request</a>";
+			echo "<h1>All Requests</h1><a class='btn btn-info btn-xs' href='/new-request/'>Make a request</a>";
 
 			alienship_archive_sticky_posts(); // sticky post query
 			if ( have_posts() ) {
@@ -75,7 +75,7 @@ get_header(); ?>
 				get_template_part( '/templates/parts/content', 'none' );
 
 			} //have_posts ?>
-			<!-- <a class='btn btn-info' href='/registry-request/'>Make a request</a> -->
+			<!-- <a class='btn btn-info' href='/new-request/'>Make a request</a> -->
 
 		</main><!-- #main -->
 		<?php do_action( 'alienship_main_after' ); ?>

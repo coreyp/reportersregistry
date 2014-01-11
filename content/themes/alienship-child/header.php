@@ -54,7 +54,7 @@ do_action( 'alienship_head' ); ?>
 	<div id="content" class="site-content row">
 
 	<?php // removed reporters registry archive page from breadcrumbs, also about page
-		if ( function_exists( 'breadcrumb_trail' ) && !is_front_page() && !is_post_type_archive('request') && !is_page('registry-request') && !is_page('about') )
+		if ( function_exists( 'breadcrumb_trail' ) && !is_front_page() && !is_post_type_archive('request') && !is_page('new-request') && !is_page('about') )
 		breadcrumb_trail( array(
 			'container'   => 'div',
 			'separator'   => '/',
