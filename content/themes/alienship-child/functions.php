@@ -74,5 +74,6 @@ add_filter('acf/pre_save_post' , 'my_pre_save_post' );
 
 // remove rich post editor 
 add_filter('user_can_richedit' , create_function('' , 'return false;') , 50); 
-
+    
+// end file
 ?>
