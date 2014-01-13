@@ -48,7 +48,8 @@ get_header(); ?>
 					*/
 					
 					// custom title
-					echo "<h3>Latest Requests</h3><a class='btn btn-info btn-xs' href='/all-requests/'>See all</a> <a class='btn btn-info btn-xs' href='/new-request/'>Make a request</a>";
+					echo "<h5>Latest Requests</h5>";
+					// previously included <!-- <a class='btn btn-info btn-xs' href='/all-requests/'>See all</a> <a class='btn btn-info btn-xs' href='/new-request/'>Make a request</a> -->
 
 					// Set arguments for the Loop - requests
 

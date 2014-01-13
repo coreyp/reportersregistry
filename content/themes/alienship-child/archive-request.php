@@ -14,8 +14,9 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 			<?php
 			// do_action( 'alienship_archive_page_title' );
-			echo "<h1>All Requests</h1><a class='btn btn-info btn-xs' href='/new-request/'>Make a request</a>";
-
+			echo "<h5>All Requests</h5>";
+			// was <a class='btn btn-info btn-xs' href='/new-request/'>Make a request</a>"
+			
 			alienship_archive_sticky_posts(); // sticky post query
 			if ( have_posts() ) {
 

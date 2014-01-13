@@ -56,7 +56,7 @@ function my_pre_save_post( $post_id )
         'post_title' => 'New Request',
         'post_type' => 'request',
         // 'post_type' => 'post',
-        'post_content' => '[label type="default"]Est. cost: $[acf field="est_cost"][/label] [label type="default"]Est. time commitment: [acf field="est_time"] hour(s)[/label]<p>[well] [acf field="request_description"] [/well] </p><p><a href="#" class="stripe-connect light-blue"><span>Volunteer</span></a> [ssd amount="500"]</p>'
+        'post_content' => '[label type="default"]Est. cost: $[acf field="est_cost"][/label] [label type="default"]Est. time commitment: [acf field="est_time"] hour(s)[/label]<p>[well] [acf field="request_description"] [/well] </p><p><a href="mailto:[acf field=requester_email]?subject=reportersregistry.com request" class="stripe-connect light-blue"><span>Volunteer</span></a> [ssd amount="500"]</p>'
     );  
  
     // insert the post
