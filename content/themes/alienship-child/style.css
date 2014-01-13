@@ -10,9 +10,11 @@ Version:        1.0
 
 @import url("../alienship/style.css");
 
-/* new font 
+/* share buttons */
 
-@font-face{font-family:dobkin;src:url('fonts/DobkinPlain.ttf') format ("truetype");} */
+.dev-share-buttons a {
+  display: block;
+}
 
 /* Stripe button style, modified, via https://stripe.com/about/resources & jsfiddle */
 

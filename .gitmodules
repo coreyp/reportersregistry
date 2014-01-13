@@ -13,3 +13,6 @@
 [submodule "content/plugins/remove-dashboard-access"]
 	path = content/plugins/remove-dashboard-access
 	url = https://github.com/coreyp/remove-dashboard-access.git
+[submodule "content/plugins/developer-share-buttons"]
+	path = content/plugins/developer-share-buttons
+	url = https://github.com/terminalpixel/Developer-Share-Buttons.git
